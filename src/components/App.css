@@ -1,0 +1,45 @@
+.header_first_div{
+  background-color: rgb(78, 78, 228);
+  height: 90px;
+  
+}
+
+.header_h1{
+  padding: 15px;
+}
+
+
+
+/************************************************************** ADD CONTACT ******************************************************************/
+
+
+.addcontact_form_label{
+  font-weight: bolder;
+  font-size: x-large;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+
+
+/* ***************************************************************CONTACT CARD ******************************************************************* */
+
+/* .structure{
+
+  float:left;
+  
+} */
+
+
+.card_contact{
+	width: 350px;
+	height: 380px;
+	border-radius: 20px;
+	border: 5px outset ;
+	margin: 30px;
+	margin-bottom: 50px;
+	background-color: aliceblue;
+
+}
+
+

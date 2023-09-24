@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": "3a57cada-b721-4936-818c-478aa31a9e7d",
+      "Name": "Noufal",
+      "ContactNumber": "8129207190",
+      "Email": "noufal321m@gmail.com"
+    },
+    {
+      "id": "b951b52e-954f-4c83-b4fc-2078168bacae",
+      "Name": "Rashid",
+      "ContactNumber": "9048092961",
+      "Email": "msrashid276@gmail.com"
+    }
+  ]
+}
