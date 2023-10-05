@@ -31,14 +31,14 @@ function AddContact({ addContactHandler }) {
 
   return (
     <div>
-      <div className="row">
+      <div className="row my-4">
         <div className="col"></div>
         <div className="col">
-          <h1 className="text-center">Add Contact</h1>
+          <h1 className="text-center text-primary">Add Contact</h1>
           <form
             action=""
-            className="mt-3 border border-5 p-5"
-            style={{ borderRadius: "20px" }}
+            className="mt-3 border border-5 border-info p-5"
+            style={{ borderRadius: "20px"}}
             onSubmit={add}
           >
             <label htmlFor="" className="addcontact_form_label">

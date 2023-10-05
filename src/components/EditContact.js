@@ -45,13 +45,13 @@ function EditContact({ updateContactHandler }) {
 
   return (
     <div>
-      <div className="row">
+      <div className="row my-4">
         <div className="col"></div>
         <div className="col">
           <h1 className="text-center text-primary">Edit Contacts</h1>
           <form
             action=""
-            className="mt-3 border border-5 p-5"
+            className="mt-3 border border-5 border-info p-5"
             style={{ borderRadius: "20px" }}
             onSubmit={update}
           >

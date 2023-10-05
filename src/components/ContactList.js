@@ -39,16 +39,16 @@ function ContactList(props) {
 
 
       <div className='d-flex justify-content-end'>
-        <button onClick={() => { navigate('/add') }} className='btn btn-primary btn-lg mt-3' >Add Contact</button>
+        <button onClick={() => { navigate('/add') }} className='btn btn-outline-success btn-lg mt-3' ><i class="fa-solid fa-user-plus fa-beat me-2"></i>Add Contact</button>
       </div>
 
-      <div class="input-group mt-3">
-        <input ref={inputElement} type="text" class="form-control" placeholder="Search Contacts" value={props.term} onChange={getSearchTerm} />
-        <div class="input-group-append">
+      <div className="input-group mt-3">
+        <input ref={inputElement} type="text" className="form-control" placeholder="Search Contacts" value={props.term} onChange={getSearchTerm}/>
+        {/* <div class="input-group-append">
           <button class="btn btn-secondary" type="button">
             <i class="fa fa-search"></i>
           </button>
-        </div>
+        </div> */}
       </div>
 
       <div className='row'>

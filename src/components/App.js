@@ -8,6 +8,7 @@ import AddContact from './AddContact';
 import ContactList from './ContactList';
 import ContactDetails from './ContactDetails';
 import EditContact from './EditContact';
+import Footer from './Footer';
 
 
 function App() {
@@ -128,9 +129,8 @@ function App() {
           <Route path='/edit/:id' exact element={<EditContact updateContactHandler={updateContactHandler} />} />
         </Routes>
 
-
-
       </Router>
+      <Footer/>
     </div>
   );
 }
